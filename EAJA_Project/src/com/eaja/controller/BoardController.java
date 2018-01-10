@@ -6,7 +6,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.eaja.vo.BoardVO;
 
-// Parameter 본인이하셈... 난 몰라 흥
 @Controller
 public class BoardController{
 	// 글 목록보기 + Paging

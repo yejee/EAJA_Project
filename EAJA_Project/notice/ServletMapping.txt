@@ -4,6 +4,10 @@ Index.jsp ( 메인 페이지 )
 	- 기업 검색창
 		: div id = MainSearchBar
 	- 로그인 & 회원가입 (sign.jsp)
+		<button type="button" id="btnSignIn" action="/signin.do">
+		/signin.do  : UserServiceController
+		
+		
 		- 로그인
 			: div id = login 
 		- 회원가입 (signup.jsp)
@@ -19,4 +23,6 @@ Index.jsp ( 메인 페이지 )
 		- 자유게시판 (freeboard.jsp)
 		- 기업분석보고서 공유 (sharepaper.jsp)
 	- 
+	
+	
 	

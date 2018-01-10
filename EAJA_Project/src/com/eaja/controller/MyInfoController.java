@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class MyInfoController{
 	// MY페이지로 이동 <캘린더, 기업리스트>
 	public ModelAndView moveMyPage() {
-		
+		//아아아아아아아앙
 	}
 	// 내가 쓴 게시판 글
 	public ModelAndView listMyBoard() {

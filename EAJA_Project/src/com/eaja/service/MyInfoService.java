@@ -4,9 +4,9 @@ import java.util.List;
 
 import javax.servlet.http.HttpSession;
 
-import com.eaja.vo.AnnualCompanyInfoVO;
 import com.eaja.vo.CompanyVO;
 import com.eaja.vo.CustomInfoVO;
+import com.eaja.vo.DocFileVO;
 import com.eaja.vo.MemberVO;
 import com.eaja.vo.MyCompanyVO;
 import com.eaja.vo.NewsVO;
@@ -23,4 +23,6 @@ public interface MyInfoService {
 	int updateCustomInfo(CustomInfoVO custom); // User Custom 정보 수정
 	int deleteCustomInfo(CustomInfoVO custom);//User Custom 정보 삭제
 	List<MyCompanyVO> listMyCompany(MemberVO member); // MY기업리스트
+	DocFileVO uploadResume(DocFileVO resume);// 이력서 업로드
+	DocFileVO downloadResume(DocFileVO resume);// 이력서 다운로드
 }

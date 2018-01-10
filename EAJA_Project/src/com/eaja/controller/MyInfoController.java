@@ -61,4 +61,12 @@ public class MyInfoController{
 	public ModelAndView listMyCompany() {
 		
 	}
+	//이력서 업로드
+	public ModelAndView uploadResume() {
+		
+	}
+	// 이력서 다운로드
+	public ModelAndView downloadResume() {
+		
+	}
 }

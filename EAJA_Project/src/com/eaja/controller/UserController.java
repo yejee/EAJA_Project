@@ -4,7 +4,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
-public class UserController{ //앙예지띠
+public class UserController{ //앙예지띠 
+	//앙예지띠 다시 도전!!!!!!!!!!!!!!!!!!!!!!!!!
 	//회원가입
 	public ModelAndView insertMember() {
 		return null;

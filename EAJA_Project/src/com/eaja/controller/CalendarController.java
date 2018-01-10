@@ -8,7 +8,7 @@ public class CalendarController{
 	// 스케쥴 리스트
 	public ModelAndView listAllSchedule(){
 		return null;
-		
+		// 새로운 커밋임...
 	}
 	// 스케쥴 입력
 	public ModelAndView insertSchedule() {

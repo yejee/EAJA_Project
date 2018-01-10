@@ -18,5 +18,5 @@ public class MemberVO implements Serializable{
 	private List<BoardVO> boardlist;
 	private List<ReplyVO> replylist;
 	private List<MyCompanyVO> companylist;
-	private CalendarVO mycal;
+	private ScheduleVO mycal;
 }

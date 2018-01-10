@@ -2,7 +2,7 @@ package com.eaja.vo;
 
 import java.util.Date;
 
-public class CalendarVO {
+public class ScheduleVO {
 	private int seq;
 	private int user_seq;
 	private Date date;

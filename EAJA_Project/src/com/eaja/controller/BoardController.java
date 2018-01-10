@@ -1,16 +1,44 @@
 package com.eaja.controller;
-/*
- * 글 목록
- * 글 작성
- * 글 상세보기
- * 글 수정
- * 글 삭제
- * 글 검색(제목,작성자,내용)
- * 조회수 카운트
- * 좋아요 카운트
- * 파일업로드
- * ( 즐겨찾기 )
- */
-public interface BoardController {
-	
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.eaja.vo.BoardVO;
+
+// Parameter 본인이하셈... 난 몰라 흥
+@Controller
+public class BoardController{
+	// 글 목록보기 + Paging
+	public ModelAndView listBoard() {
+		return null;
+	}
+	// 검색조건으로 글 목록 보기
+	public ModelAndView searchListBoard() {
+		return null;
+		
+	}
+ 	// 글 상세보기 + 조회수UP(biz)
+	public ModelAndView selectBoard() {
+		return null;
+	}
+	// 좋아요UP
+	public ModelAndView insertThumbCountUp() {
+		return null;
+	}
+	// 글 작성하기
+	public ModelAndView insertBoard(@ModelAttribute BoardVO board) {
+		return null;
+	}
+	// 글 수정하기
+	public ModelAndView updateBoard() {
+		return null;
+		
+	}
+	// 글 삭제하기
+	public ModelAndView deleteBoard() {
+		return null;
+	}
+	// File UP
+	// File Download
 }

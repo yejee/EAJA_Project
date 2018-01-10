@@ -1,1 +1,22 @@
 ServletMapping 설정
+
+Index.jsp ( 메인 페이지 )
+	- 기업 검색창
+		: div id = MainSearchBar
+	- 로그인 & 회원가입 (sign.jsp)
+		- 로그인
+			: div id = login 
+		- 회원가입 (signup.jsp)
+			- GoogleAPI
+			- NaverAPI
+			- form  action="/" id = signup / method=POST
+			
+		- 비번찾기 (forgotpw.jsp)
+			- Email	
+
+	- 게시판
+		- 공지사항 (notice.jsp)
+		- 자유게시판 (freeboard.jsp)
+		- 기업분석보고서 공유 (sharepaper.jsp)
+	- 
+	

@@ -10,6 +10,7 @@ import com.eaja.vo.BoardVO;
 public class BoardController{
 	// 글 목록보기 + Paging
 	public ModelAndView listBoard() {
+		// 메롱 이건 테스트야
 		return null;
 	}
 	// 검색조건으로 글 목록 보기
